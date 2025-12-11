@@ -7,10 +7,19 @@
     <style>
         body {
             height: 63em;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-image: center top;
-            background-repeat: repeat;
+            background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /*Shorthand - Background
+                color > image > position > size > repeat > attachment - Seguindo a ordem da IA
+                color > image > position > repeat > [size] > attachment - seguindo a ordem do Guanabara
+            */
+            background: black url('imagens/wallpaper002.jpg') center center  no-repeat fixed;
             background-size: cover;
         }
         main{
